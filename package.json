@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "build:dev": "tsc --w",
-    "start": "node"
+    "start": "node ."
   },
   "keywords": [],
   "author": "",
