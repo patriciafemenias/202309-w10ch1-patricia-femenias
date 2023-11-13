@@ -1,4 +1,5 @@
-import { Tool } from "../../../types.js";
+/* eslint-disable @typescript-eslint/naming-convention */
+import { type Tool } from "../../../types.js";
 
 const tools: Tool[] = [
   {
