@@ -1,4 +1,5 @@
-import { Tool } from "../../../types";
+/* eslint-disable @typescript-eslint/naming-convention */
+import { type Tool } from "../../../types.js";
 
 const tools: Tool[] = [
   {
@@ -28,7 +29,9 @@ const tools: Tool[] = [
   },
   {
     id: 6,
-    ToolName: "Reat",
+    ToolName: "React",
     difficultyLevel: 8,
   },
 ];
+
+export default tools;
