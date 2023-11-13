@@ -17,6 +17,7 @@ toolsRouter.get("/:idTool", (req, res) => {
     res.status(404).json({ error: "This tool doesn't exist" });
     return;
   }
+
   res.status(200).json(tool);
 });
 
