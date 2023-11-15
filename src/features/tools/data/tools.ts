@@ -1,35 +1,34 @@
-/* eslint-disable @typescript-eslint/naming-convention */
 import { type Tool } from "../../../types.js";
 
 const tools: Tool[] = [
   {
     id: 1,
-    ToolName: "Javascript",
+    toolName: "Javascript",
     difficultyLevel: 9,
   },
   {
     id: 2,
-    ToolName: "Css",
+    toolName: "Css",
     difficultyLevel: 6,
   },
   {
     id: 3,
-    ToolName: "HTML",
+    toolName: "HTML",
     difficultyLevel: 5,
   },
   {
     id: 4,
-    ToolName: "Css",
+    toolName: "Css",
     difficultyLevel: 6,
   },
   {
     id: 5,
-    ToolName: "Git",
+    toolName: "Git",
     difficultyLevel: 6,
   },
   {
     id: 6,
-    ToolName: "React",
+    toolName: "React",
     difficultyLevel: 8,
   },
 ];
