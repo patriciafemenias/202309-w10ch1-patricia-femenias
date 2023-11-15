@@ -28,6 +28,7 @@ toolsRouter.delete("/:idTool", (req, res) => {
 
   if (toolIndex === -1) {
     res.status(404).json({ error: "This tool doesn't exist" });
+    return;
   }
 
   tools.splice(toolIndex, 1);
